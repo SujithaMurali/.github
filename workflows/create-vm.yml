@@ -1,7 +1,9 @@
 on: 
 
 workflow_dispatch: {}
-
+ push:
+        paths: 
+        - '.github/workflows/create-vm.yml'
 name: DeployAzureVM
 
 jobs:
