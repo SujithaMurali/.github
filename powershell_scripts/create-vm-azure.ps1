@@ -12,7 +12,7 @@ az account set `
     --subscription $Env:AZURE_SUBSCRIPTION_NAME
 
 # Create the VM configuration object
-$ResourceGroupName = "my-resource-group"
+$ResourceGroupName = "RG_Github1"
 $VmName = "Demo-vm-from-gh"
 
 # Create a VM in Azure
